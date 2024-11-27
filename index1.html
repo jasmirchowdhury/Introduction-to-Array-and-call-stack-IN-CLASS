@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h2> My First Web Page</h2>
+        <h2> My Second Web Page</h2>
+        <p>THe quick brown fox jumps over the lazy dog</p>
+
+
+        <p id="myjoin"></p>
+           <p id="myjoin2"></p>
+           <p id ="myjoin3"></p>
+           <script>
+            var games = ["Free fire","PUBG","call of duty"];
+
+            document.getElementById("myjoin").innerHTML = games.join(" * ");
+            document.getElementById("myjoin2").innerHTML = games;
+            games.pop();
+            document.getElementById("myjoin3").innerHTML = games;
+
+           </script>
+    </body>
+</html>
